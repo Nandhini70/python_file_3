@@ -1,0 +1,249 @@
+'''a=10
+b=5
+print(a)'''
+'''from distutils.command.install import key
+from functools import total_ordering
+from tkinter.font import names'''
+
+'''a=10
+b=5
+print(b)'''
+'''a=10
+b=5
+print(a*b)'''
+'''#complement:
+a=10
+print(~a)'''
+'''n=-45
+print(~n)'''
+'''a=7
+print(a<<2)'''
+#rightshift
+'''a=137
+print(a>>3)'''
+#logical oprator:
+'''a=10
+b=20
+c=10
+d=45
+print(a<b and b>=c)
+print(a<d and d<c)
+print(a<d or d<c)'''
+#if else
+'''length=int(input("enter length:"))
+breath=int(input("enter breath:"))
+if length == breath:
+    print("square")
+else:print("rectangle")'''
+'''# squrae below or equal:
+num=int(input("enter a number:"))
+square=int(input("enter a number:"))
+if square>50:
+    print("square is above50")
+else:
+    print("square is below or equal")'''
+'''#question 3
+a=int(input("enter a number:"))
+b=int(input("enter a number:"))
+diff=a-b
+if diff ==0:
+    print("difference is 0")
+else:
+    print("difference is not 0")'''
+'''#question 4
+marks=int(input("enter marks:"))
+if marks >=50:
+    print("passed")
+else:
+    print("fail")'''
+'''#question 5
+num=int(input("enter number"))
+if num%10==0:
+   print("divisible")
+else:
+    print("not divisible")'''
+'''#question 6
+a=int(input("enter numbr:"))
+b=int(input("enter number:"))
+if a>b:
+    print("a is big")
+else:
+    print(" b is above")'''
+'''#question 7
+a=int(input("enter value:"))
+if a==1:
+    print("you can go out and play")
+else:
+    print("you cannot go out and play")'''
+'''#question8
+a=int(input("enter"))
+b=int(input("enter"))
+if a>b:
+    print('The exam wii be easy')
+else:
+    print('The exam will be difficult')'''
+'''#question9:
+a=int(input('enter'))    
+b=int(input('enter'))
+op=str(input("enter the operator"))
+if op==('+'):
+   print('result:',(a+b))
+elif op==('-'):
+   print('result:',(a-b))
+elif op==('*'):
+   print('result:',(a*b))
+elif op==('/'):
+   print('result:',(a/b))
+else:
+    print('invalid operator')'''
+'''#question12:
+print('days')
+days=int(input('enrter'))
+if days<=5:
+    print('fine=days*0.40')
+elif days<=10:
+    print('fine=days*0.65')
+else:
+    print('fine is :days*0.80')'''
+'''#question13
+n=int(input('enert number'))
+if n%10==0 or n%7==0:
+   print('buzz number correct')
+else:
+    print('buzz number wrong')'''
+'''#question15
+a=int(inpiut("enter"))
+b=int(input("enter"))
+if 
+   print("capitalized letter")
+else :
+    print("not capitalized leter")'''
+
+'''# loop task:
+question1
+num=int(input('enter'))
+even=0
+odd=0
+for num in range(1,num+1):
+ if num%2==0:
+    even+=num
+    print("even number",even)
+ else:
+    odd+=num
+    print("odd number",odd)'''
+'''question2
+n=int(input('enter number:'))
+for i in range (1,11):
+ print(n*i)'''
+'''#question3
+fact=1
+for i in range(1,6):
+    fact=fact*i
+print(fact)'''
+'''#question4
+a=65
+for i in range(1,8):
+    for j in range (i):
+        print(chr(a),end=" ")
+        a+=1
+        if a>90:
+           a=65
+    print()'''
+'''#question5
+a=90
+for i in range(1,8):
+    for j in range(i):
+        print(chr(a),end=" ")
+        a-=1
+        if a>=90:
+           a=65
+    print()'''
+'''#question6
+for i in range (1,256):
+    print(chr(i),i)'''
+'''m=5
+n=10
+for i in range(10,1,-1):
+    print(i*m)'''
+'''#question10
+a=input("enter number")
+b=""
+for i in a:
+    b=i+b
+    print(b)
+if b==a:
+    print("palindrome")
+else:
+    print("not palindrome")'''
+'''#question11
+a=int(input("enter"))
+b=0
+x=a
+temp=a
+while a>0:
+    b+=1
+    a=a//10
+#print(b)
+ans=0
+while x>0:
+    c=x%10
+    ans=ans+c**b
+    x=x//10
+#print(ans)
+if ans == temp:
+    print("amstrong number")
+else:
+    print("not amstrong number")'''
+#Arrays
+#question 1
+'''arr=[]
+n=int(input("enter number of element:"))
+for i in range(n):
+    arr.append(int(input()))
+    print("largest:", max(arr))
+    print("smallest:",min(arr))
+    print("sum:",sum(arr))'''
+#question2
+'''n=int(input("enter number of student:"))
+names=[]
+mark1= []
+mark2= []
+mark3= []
+for i in range(n):
+    names.append(input("enter name:"))
+    mark1.append(int(input("mark 1:")))
+    mark2.append(int(input("mark 2:")))
+    mark3.append(int(input("mark 3:")))
+for i in range(n):
+    total=mark1[i] + mark2[i] + mark3[i]
+    avg = total / 3
+    if avg >=85:
+        remark="excellent"
+    elif avg >=75:
+        remark="distinction"
+    elif avg >=60:
+        remark="first class"
+    elif avg >=40:
+        remark="pass"
+    else:
+        remark="poor"
+        print(names[i],"average:",avg,"remark", remark)'''
+#function task:
+#question1:
+'''def series1():
+    for i in range (2,18,2):
+        print(i,end=" ")
+def series2():
+    for i in range(50,-1,-10):
+        print(i,end=" ")
+series1()
+print()
+series2()
+print()'''
+#question2:
+'''def square(a):
+    print(a*a)
+def cube(b):
+    print(b*b*b)
+square(2)
+cube(3)'''
