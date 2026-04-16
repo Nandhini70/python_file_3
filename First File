@@ -1,0 +1,55 @@
+with return:
+'''def is vowel (a):
+  vowel=['a','e','e','i','o','u']
+  for i in vowel:
+      if i==a:
+          return "vowel"
+      else:
+          return ("constant")
+    print(is vowel('a'))
+    print(is vowel("k"))'''
+#with argument & with return
+'''def is vowel()
+  a=input("enter"):
+  vowel=['a','e','i','o','u']
+  for i in vowel:
+      if i ==a:
+          return"vowel"
+      return "constant"
+  print(is vowel())
+  print(is vowel())'''
+#recursive function:
+'''def fact(a):
+    if a==0 or a==1:
+        return
+    else:
+        return a*fact(a-1)
+print(fact(5))'''
+#lamda function:
+'''a=lambda a,b: a+b
+print((a:12,b:56))'''
+#numpy
+'''def fact(a):
+    if a==0 or a==1:
+        return
+    else:
+        return a*fact(a-1)'''
+#time
+'''import time as t
+print(t.ctime())
+t.sleep(5)
+print("Hello")
+print(t.strftime("%H:%M:s"))'''
+#calender
+'''import calendar as c
+print (c.calendar(2026))
+print (c.month(theyear:2000,themonth:3))
+print (c.isleap(2024))
+print(c.weekheader(5))'''
+#date/time:
+'''import datetime as s
+print(s.datetime.now ())
+print(s.date.today())'''
+
+'''import pywhatkit as p
+p.search("Thalapathy")'''
